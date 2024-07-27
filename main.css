@@ -24,14 +24,16 @@
 
 .main .main-content h1{
     position: relative;
-    font-size: 3rem;
+    font-size: var(--fs-xl);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .main .main-content h1 span::after{
     content: url('/img/handshake.png');
     position: absolute;
 }
 .main .main-content p{
-    font-size: 1.5rem;
+    font-size: var(--fs-400);
     opacity: 0.5;
     line-height: 1.4;
 }
@@ -50,7 +52,7 @@
 .main .main-content .main-content-buttons button{
     border-radius: var(--border-radius-5);
     padding: var(--padding-10);
-    font-size: var(--medium-font-size);
+    font-size: var(--fs-400);
     color: black;
     cursor: pointer;
     border: none;

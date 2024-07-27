@@ -22,18 +22,14 @@
     --margin-left-right: 3rem;
 } */
 
-h1{
-    margin: 0;
-    font-size: 3rem;
-}
+ 
 
 .skills-section{
-    height: 100vh;
     display: flex;
     width: 100%;
     justify-content: center;
-    margin-top: var(--margin-6rem);
-    padding: var(--extra-large-padding) ;
+    margin-top: 2rem;
+    padding: 30px 10px ;
     gap: var(--large-gap);
     translate: 0 200px;
     opacity: 0;
@@ -51,17 +47,25 @@ h1{
 } 
 
 .skills-section .skills-content{
-    flex-grow: 1;
-    margin-right: auto;
     align-self: center;
 }
 
 .skills-section .skills-content h1{
-    font-size: var(--big-font-size);
+    margin: 0;
+    font-size: var(--fs-600);
+    margin-bottom: 2rem;
+
 }
 
+.wrap{
+    padding: 30px 10px;
+}
+.skills-section .skills-content .skills-progress-content {
+    width: 100%;
+}
 .skills-section .skills-content .skills-progress-content p{
-    font-size: var(--medium-font-size);
+
+    font-size: var(--fs-400);
 }
 
 .skills-section .skills-content .skills-progress-content .progress-bar1{

@@ -1,9 +1,10 @@
 :root{
     --background-color: hsl(0, 0%, 100%);
-    --small-font-size: 1rem;
-    --font-size-103rem: 1.3rem;
-    --medium-font-size: 1.5rem;
-    --big-font-size: 3rem;
+
+     --fs-xl : 5rem;
+     --fs-600: 2rem;
+     --fs-400: 1.5rem;
+
     --font-color: hsl(0, 0%, 0%);
     --font-color-hover: hsl(0, 0%, 70%);
     ---small-padding: 5px;
@@ -47,7 +48,7 @@ a{
 }
 
 .icon{
-    font-size: 1.5rem;
+    font-size: var(--fs-600);
     display: none;
     position: absolute;
     top: .7em;
@@ -69,7 +70,7 @@ body{
     padding: 20px;
     width: 100%;
     box-shadow: 1px 1px 1px hsl(0, 3%, 66%);
-    font-size: var(--medium-font-size);
+    font-size: var(--fs-400);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -88,7 +89,7 @@ body{
     background-image: linear-gradient(50deg, hsla(240, 100%, 40%, 0.819), red) ;
     background-clip: text;
     color: transparent;
-    font-size: 1.5rem;
+    font-size: var(--fs-600);
 }
 
 /* .header-main .logo::after{
@@ -109,7 +110,7 @@ body{
 .header-main .navbar-ul li{
     position: relative;
     cursor: pointer;
-    font-size: var(--small-font-size);
+    font-size: var(--fs-400);
     width: fit-content;
     color: black;
      
@@ -139,6 +140,13 @@ body{
     align-items: center;
 }
 @media only screen and (max-width: 850px) {
+
+     :root {
+        -fs-xl : 3rem;
+     --fs-600: 1.5rem;
+     --fs-400: 1rem;
+     }
+
     .icon{
         display: block;
     }

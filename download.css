@@ -2,7 +2,7 @@
 a{
     color: white;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: var(--fs-600);
 
 }
 
@@ -21,7 +21,7 @@ a{
 
 #resume-section .resume-download-heading {
     text-align: center;
-    font-size: 3rem;
+    font-size: var(--fs-600);
 }
 
 #download-button{

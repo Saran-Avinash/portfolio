@@ -26,7 +26,7 @@
 }
 
 .card .image-heading{
-    font-size: var(--medium-font-size);
+    font-size: var(--fs-600);
     text-align: center;
 }
 
@@ -34,7 +34,7 @@
     padding: var(--medium-padding);
 }
 .card .content {
-    font-size: var(--font-size-103rem);
+    font-size: var(--fs-400);
     text-align: center;
     color: var(--light-grey);
 /* : var(--small-padding); */
@@ -48,5 +48,5 @@
     gap: var(--medium-gap);
 }
 .card .links a{
-    font-size: var(--small-font-size);
+    font-size: var(--fs-400);
 }

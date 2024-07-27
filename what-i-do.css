@@ -3,7 +3,7 @@
 .what-i-do-h1{
     width: fit-content;     
    margin: 0 auto;
-   margin-bottom: 4rem;
+   margin-bottom: 2rem;
    position: relative;
 }
 .what-i-do-h1::after{
@@ -57,8 +57,12 @@
    animation-timeline: view();
    animation-range: 0px 350px;
 }
+
+.what-i-do .what-i-do-content li {
+    font-size: var(--fs-400);
+}
 .what-i-do .what-i-do-content p{
-    font-size: var(--medium-font-size);
+    font-size: var(--fs-400);
     line-height: 1.5;
     
 }
@@ -106,9 +110,11 @@
 
 @media only screen and (max-width: 800px) {
     .what-i-do-image img{
-        display: none;
+        max-width: 100%;
+        max-height: 100%;
     }
     .what-i-do{
         gap: 0;
+        flex-direction: column;
     }
 }
