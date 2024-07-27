@@ -70,5 +70,8 @@
     .main-image img{
         display: none;
     }
+    .main{
+        gap: 0;
+    }
     
 }
