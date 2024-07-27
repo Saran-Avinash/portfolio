@@ -141,3 +141,12 @@ h1{
  .skills-image{
     align-self: center;
  }
+
+ @media only screen and (max-width:800px) {
+    .skills-section{
+        flex-direction: column;
+    }
+    .skills-image{
+        display: none;
+    }
+ }
