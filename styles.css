@@ -50,10 +50,11 @@ a{
 .icon{
     font-size: var(--fs-600);
     display: none;
-    position: absolute;
-    top: .7em;
-    right: 1rem;
+    position: fixed;
+    top: 24px;
+    right: 20px;
     z-index: 1000;
+    
 }
 body{
     margin: 0;
