@@ -64,3 +64,9 @@
     max-width: 8px;
     max-height: 8px;
 } */
+
+@media only screen and (max-width: 800px) {
+    .footer {
+        padding: 5px;
+    }
+}
