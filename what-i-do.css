@@ -22,13 +22,15 @@
 
 
 .what-i-do {
-    width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     /* align-items: center; */
     gap: var(--large-gap);
     padding: var(--large-padding);
 }
+
+ 
 
 .what-i-do-image img{
     border-radius: 20px;
@@ -47,6 +49,7 @@
 .what-i-do .what-i-do-content {
     /* margin-top: var(--medium-margin-top);
     margin-bottom: var(--medium-margin-bottom); */
+   max-width: 100%;
    scale: .8;
    opacity: 0;
    translate: 100px;
@@ -75,6 +78,9 @@
 
 .what-i-do-logo{
     display: flex;
+    max-width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: var(--medium-gap);
 }
 .what-i-do-logo img{ 
@@ -96,4 +102,13 @@
     content: url("/img/lightning.png");
     left: -20px;
     bottom: -4px;
+}
+
+@media only screen and (max-width: 800px) {
+    .what-i-do-image img{
+        display: none;
+    }
+    .what-i-do{
+        gap: 0;
+    }
 }
