@@ -13,13 +13,14 @@
 
 .main{
     height: calc(100vh - 60px);
-    width: 100%;
+    max-width: 100%;
     margin-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: var(--medium-gap);
     padding: var(--large-padding);
+    margin-inline: auto;
 }
 
 .main .main-content h1{

@@ -50,9 +50,9 @@ a{
 .icon{
     font-size: var(--fs-600);
     display: none;
-    position: fixed;
-    top: 24px;
-    right: 20px;
+    position: absolute;
+    top: 1.1em;
+    right: 1rem;
     /* left: 0; */
     /* bottom: 0; */
     z-index: 1000;
@@ -63,8 +63,7 @@ a{
 body{
     margin: 0;
     font-family: var(--font-family);
-     
-     
+    /* max-width: 100vw; */
     background-color: black;
 }
 
@@ -73,7 +72,7 @@ body{
 .header-main{
     /* height: var(--header-height); */
     padding: 20px;
-    width: 100vw;
+    /* width: 100%; */
     box-shadow: 1px 1px 1px hsl(0, 3%, 66%);
     font-size: var(--fs-400);
     display: flex;
@@ -82,9 +81,9 @@ body{
     position: fixed;
     background-color: rgb(255, 255, 255, 0.9);
     top: 0;
-    /* left: 0;
-    right: 0; */
-    z-index: 100;
+    left: 0;
+    right: 0;
+    z-index: 9999;
     
 }
 
