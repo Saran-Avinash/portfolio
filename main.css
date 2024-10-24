@@ -3,7 +3,9 @@
 *, h1, p{
     color: white;
 }
-
+body, html{
+ overflow-x: hidden;
+}
 .main-content img{ 
     width: 32px;
     height: 32px;
